@@ -1,0 +1,672 @@
+body{
+    background-color: #212121;
+}
+
+.upload__image{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.upload__image a{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid  #44db64;
+    width: 100%;
+    height: 100%;
+
+    transition: 0.3s;
+
+}
+
+.upload__image a:hover{
+    color: #2dae49;
+    border: 2px solid  #2dae49;
+
+    transition: 0.3s;
+
+}
+
+.main__blocks{
+    margin-top: 30px;
+    display: flex;
+}
+
+.aside__block{
+    width: 20%;
+
+}
+.tags__list{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags__list a{
+    color: aliceblue;
+    transition: 0.3s;
+
+}
+
+.tags__list a:active{
+    color: #59a4e5;
+    transition: 0.3s;
+}
+
+.main__block{
+    width: 110%;
+}
+
+.post__block{ 
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.post__block > a{ 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+}
+
+.post__block-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.post__block-content > a {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+
+.post__block img, .post__block video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Змінили transition */
+}
+
+.post__block img:hover, .post__block video:hover {
+    transform: scale(1.1); /* Змінили width та height на scale */
+}
+
+.post__block h3 > a{ 
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.post__block p > a{ 
+    padding-top: 3px;
+    display: block;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.post__block p{ 
+    padding-top: 3px;
+    display: block;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+
+
+.form__create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+    height: auto;
+}
+
+.form__create form{
+    margin: 0 auto;
+}
+
+.form__create form, label{
+    color: aliceblue;
+}
+
+.form__create textarea{   
+    padding: 10px;
+    width: 500px;
+    border: 2px solid #2d73b0;
+    transition: 0.5s;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: #212121;
+    color: aliceblue;
+
+}
+
+.form__create textarea{
+
+}
+
+.form__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section__input{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+
+.button__create{
+    
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: #2d73b0;
+    transition: 0.5s;
+}
+
+.button__create:active{
+    background: #1a4871;
+    transition: 0.2s;
+}
+
+
+.form__show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 100px;
+}
+
+.show__block{
+    margin: 0 30px;
+}
+.block__with-image{
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.block__with-image img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.block__with-image video{
+    width: 500px;
+
+    border-radius: 10px;
+}
+
+.manipulation__section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.edit__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    color: aliceblue;
+    border: 2px solid orange;
+    width: 100px;
+    height: 30px;
+
+    transition: 0.3s;
+}
+
+.edit__button:hover{
+    color: #be7c00;
+    border: 2px solid #be7c00;
+
+    transition: 0.3s;
+}
+
+.delete__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    color: aliceblue;
+    border: 2px solid #ff4545;
+    width: 100px;
+    height: 30px;
+
+    transition: 0.3s;
+
+}
+
+.delete__button:hover{
+    color: #be3636;
+    border: 2px solid #be3636;
+
+    transition: 0.3s;
+}
+
+.autor__publication{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.autor__publication a{
+    color: #44db64;
+    font-size: 16px;
+}
+
+.autor__publication span{
+    color: #44db64;
+    font-size: 16px;
+}
+
+.description__text{
+    margin: 15px 0 10px 0px;
+
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.main__news-text{
+
+    margin: 0 0 10px 0px;
+
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.tags__news{
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.tags__news a{
+    color: #44db64;
+
+}
+
+.date__news{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.block-edit__with-image{
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+.block-edit__with-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.block-edit__with-image video{
+    width: 100%;
+    border-radius: 10px;
+}
+.section__input-edit{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__inputs-edit{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto
+}
+
+.form__inputs-edit input{
+    color: aliceblue;
+}
+
+.form__inputs-edit form, label{
+    color: aliceblue;
+}
+
+.form__inputs-edit textarea{   
+    padding: 10px;
+    max-width: 500px;
+    min-width: 500px;
+    height: auto;
+    border: 2px solid #2d73b0;
+    transition: 0.5s;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: #212121;
+    color: aliceblue;
+
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+
+.button__upload{
+    
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: #2d73b0;
+    transition: 0.5s;
+}
+
+.button__upload:active{
+    background: #1a4871;
+    transition: 0.2s;
+}
+
+.form__edit{    
+    margin-bottom: 100px;
+
+}
+
+.profile-user__box{
+    
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.profile__blocks{
+    display: flex;
+}
+.profile__block-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__block-second{
+    margin: 0 0 0 50px;
+}
+
+.profile__nickname{
+    margin: 0 0 15px 0;
+
+    display: flex;
+}
+
+.autor__posts-profile{
+    color: #44db64;
+    font-size: 20px;
+}
+
+.edit__info-autor{
+    margin: 0 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit__info-autor a{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 10px;
+    border-radius: 10px;
+
+
+    width: 100px;
+    height: 20px;
+
+    border: 2px solid #44db64;
+
+    transition: 0.3s;
+
+}
+
+.edit__info-autor a:hover{
+    color: #2dae49;
+    border: 2px solid #2dae49;
+
+    transition: 0.3s;
+
+}
+
+.about-user:nth-child(1){
+    font-size: 18px;
+    margin: 15px 0 0 0 ;
+    font-weight: 800;
+}
+
+.about-user:nth-child(2){
+    margin: 7px 0 0 0 ;
+    font-size: 16px;
+
+}
+
+.about-user{
+    color: aliceblue;
+}
+
+.profile__stats{
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.profile__status-info{
+    display: flex;    
+    font-weight: 800;
+}
+
+.status-info{
+    font-size: 18px;
+    padding: 0 0 0 10px;
+
+    
+}
+
+.pagination__block{
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.autor__post-search-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.autor__post-search-input{
+
+}
+
+.autor__post-search-input{   
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+
+    font-size: 16px;
+    color: aliceblue;
+    padding: 0px 10px 0 10px;
+    background: #212121;
+    width: 300px;
+    height: 30px;
+    transition: 0.2s;
+}
+
+.autor__post-search-input:focus{   
+    border: 2px solid #2d73b0;
+    transition: 0.2s;
+}
+
+.upload__image-autor{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.upload__image-autor a{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid #44db64;
+    width: 100%;
+    height: 100%;
+
+    transition: 0.3s;
+
+}
+
+.upload__image-autor a:hover{
+    color: #2dae49;
+    border: 2px solid #2dae49;
+
+    transition: 0.3s;
+
+}
+
+.tags__list h4{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+
+.prifile__post-row .post__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.prifile__post-row .post__block video{
+    width: 100%; /* Фото заповнює всю ширину контейнера */
+    height: 125px; /* Автоматично пропорційно змінює висоту */
+    object-fit: cover; /* Фото обрізається, щоб вписатися в розміри контейнера */
+
+    border-radius: 10px;
+
+}
+
+.prifile__post-row .post__block .manipulation__section{
+    margin-top: 6.5px;
+}
+
+
+.prifile__post-row .manipulation__section{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.prifile__post-row .manipulation__section {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+.prifile__post-row .manipulation__section .edit__button{
+    width: 90px;   
+}
+.prifile__post-row .manipulation__section .delete__button{
+    width: 90px;
+}
+
+
+.prifile__post-row .post__block video{
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+
+.prifile__post-row .post__block video:hover{
+    width: 110%;
+    transition: 0.3s;
+}
+
+.post__description{
+    padding-top: 7px;
+
+    display: flex;
+}
+
+.post__decription-text{
+    margin: 0 0 0 10px
+}
+
+.post__image-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-user__post{
+    width: 40px;
+    height: 40px;
+}
+
+.image-user__post:hover{
+    width: 40px;
+    height: 40px;
+}

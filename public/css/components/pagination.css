@@ -1,0 +1,113 @@
+.span__first-pagination{
+    cursor: not-allowed;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
+    width: 150px;
+    height: 30px;
+    background-color: #1a4871;
+
+    border-radius: 10px;
+}
+
+.a__first-pagination{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    background-color: #2d73b0;
+
+    border-radius: 10px;
+}
+
+.span__second-pagination{
+    cursor: not-allowed;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
+    width: 150px;
+    height: 30px;
+    background-color: #1a4871;
+
+    border-radius: 10px;
+}
+
+.a__second-pagination{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    background-color: #2d73b0;
+
+    border-radius: 10px;
+}
+
+.span__number-pagination{
+    cursor: not-allowed;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
+    width: 25px;
+    height: 30px;
+    background-color: #1a4871;
+
+    border-radius: 10px;
+}
+
+.a__number-pagination{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 25px;
+    height: 30px;
+    background-color: #2d73b0;
+
+    border-radius: 10px;
+}
+
+.span__second-number-pagination{
+    cursor: not-allowed;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
+    width: 25px;
+    height: 30px;
+    background-color: #1a4871;
+
+    border-radius: 10px;
+}
+
+.results__pagination{
+    margin-top: 10px;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.results__pagination-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    background-color: #1e1c1c;
+    color: aliceblue;
+
+    border-radius: 10px;
+
+    margin: 0 0 50px 0;
+}

@@ -1,0 +1,69 @@
+.regist__container{
+    margin-top: 500px;
+    padding-top: 50px;
+    width: 500px;
+    /* border: 2px solid #2569b6; */
+    height: 300px;
+}
+
+.form__registration{
+    width: 100%;
+}
+
+.form__registration input{
+    
+}
+
+.regist__container > h1 {
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.regist__container{
+    color: aliceblue;
+}
+
+.regist__container input{   
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+
+    font-size: 20px;
+    color: #a5a5a5;
+    padding: 0px 10px 0 10px;
+    background: #21212100;
+
+    transition: 0.5s;
+}
+
+.regist__container input:focus{   
+    color: aliceblue;
+    border: 2px solid #2d73b0;
+    transition: 0.5s;
+}
+
+.regist__container label{
+    padding-left: 10px;
+
+}
+
+.regist__container button{
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: #2d73b0;
+    transition: 0.5s;
+
+}
+
+
+.regist__container button:active{
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: #1a4871;
+    transition: 0.2s;
+
+}
